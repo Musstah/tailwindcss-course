@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.html"],
   theme: {
@@ -9,9 +8,12 @@ module.exports = {
       xl: "1440px",
     },
     extend: {
-      fontFamilty: {
+      fontFamily: {
         sans: ["Josefin Sans", "sans-serif"],
         alata: ["Alata"],
+      },
+      letterSpacing: {
+        widest: ".3em",
       },
     },
   },
